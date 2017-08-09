@@ -164,6 +164,8 @@ nmap <C-n>		:set mouse=v<CR>:set nonu<CR>
 nmap <C-a>		:set mouse=a<CR>:set nu<CR>
 nmap <C-f>		:%s/\s\+$//g<CR>
 nmap <C-x>	        	:%s/\r//g<CR>
+nmap >                   <C-w>>
+nmap <                   <C-w><
 
 function s:set_keymap_c()
 	map \\				:'<,'>s/^\(\s*\)\/\/\+\s*/\1/g<CR>:set nohls<CR>
